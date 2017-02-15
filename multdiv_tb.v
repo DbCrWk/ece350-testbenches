@@ -14,7 +14,7 @@ module multdiv_tb();
     integer errors;
     integer index;    // for testing...
 
-    // Instantiate Booth
+    // Instantiate multdiv
     multdiv_NETID multdiv(data_operandA, data_operandB, ctrl_MULT, ctrl_DIV, clock,
         data_result, data_exception, data_inputRDY, data_resultRDY);
 
